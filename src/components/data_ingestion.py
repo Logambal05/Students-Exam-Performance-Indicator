@@ -9,7 +9,7 @@ from src.logger import logging
 from src.components.data_transformation import(
     DataTransformationConfig,
     DataTransformation)
-# from src.components.model_training import ModelTrainerConfig,ModelTrainer
+from src.components.model_trainer import ModelTrainerConfig,ModelTrainer
 
 @dataclass
 class DataIngestionConfig:
@@ -59,8 +59,8 @@ if __name__=="__main__":
 
     # Data Transformation.
     Data_Trans = DataTransformation()
-    Data_Trans.initiate_data_transformation(Train_Data,Test_Data)
+    Train_Arr,Test_Arr,_ = Data_Trans.initiate_data_transformation(Train_Data,Test_Data)
 
     # Model training
-    # Model_Trained = ModelTrainer()
-    # print(Model_Trained.Intiate_Model_Trainer(Train_Arr,Test_Arr))
+    Model_Trained = ModelTrainer()
+    print(Model_Trained.intiate_model_trainer(Train_Arr,Test_Arr))
