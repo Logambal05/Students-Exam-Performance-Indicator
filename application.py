@@ -31,13 +31,16 @@ def predict_datapoint():
 
         )
 
+        logging.info("Prediction Started")
         pred_df = data.get_data_as_data_frame()
         print(pred_df)
         print("Before Prediction")
 
+        logging.info("Mid Way Prediction Started")
         predict_pipeline = Predictpipeline()
         print("Mid Prediction")
 
+        logging.info("Prediction Completed")
         results=predict_pipeline.predict(pred_df)
         print("after Prediction")
 
