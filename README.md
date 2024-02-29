@@ -44,8 +44,8 @@ Aws Beanstalk Link : (http://studentsexamperformaceindicator-env.eba-eainjvrs.us
 
 
 ## Screenshots of UI
-![Screenshot 1](AWS Images/Web Server Image)
-![Screenshot 2](AWS Images/Deployment Image)
+![Screenshot 1](AWS Images/Web Server Image.png)
+![Screenshot 2](AWS Images/Deployment Image.png)
 
 
 ## Conclusion
