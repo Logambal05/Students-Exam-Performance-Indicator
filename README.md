@@ -44,8 +44,8 @@ Aws Beanstalk Link : (http://studentsexamperformaceindicator-env.eba-eainjvrs.us
 
 
 ## Screenshots of UI
-UI Image: ![UI Image](https://drive.google.com/uc?export=view&id=1hwZ3KJcVQaAmjBYwY8t8z9Ni8KZ77WwP)
-Deployment Image: ![Deployment Image](https://drive.google.com/uc?export=view&id=1Q8vn-eZ9wx8bQdbFkz5TEIoTfzXiALeS)
+UI Image: ![UI Image](https://drive.google.com/uc?export=view&id=1Q8vn-eZ9wx8bQdbFkz5TEIoTfzXiALeS)
+Deployment Image: ![Deployment Image](https://drive.google.com/uc?export=view&id=1hwZ3KJcVQaAmjBYwY8t8z9Ni8KZ77WwP)
 
 ## Conclusion
 This project successfully developed a predictive model for student performance based on various demographic and educational factors. The deployed web application provides a user-friendly interface for stakeholders such as educators and policymakers to gain insights into student performance and make informed decisions.
